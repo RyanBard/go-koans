@@ -33,6 +33,8 @@ func aboutCommonInterfaces() {
 
 		out := new(bytes.Buffer)
 
+		// Your code goes here.
+
 		assert(out.String() == "hello") // duplicate only a portion of the io.Reader
 		b, _ := io.ReadAll(in)
 		assert(string(b) == " world")
